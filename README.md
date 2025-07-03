@@ -124,7 +124,7 @@ Before initiate a DKG ceremony it's advised to check if all participating operat
 
 ```sh
 docker run --name ssv_dkg_health \
-"bloxstaking/ssv-dkg:latest" ping --ip http://141.94.143.182:3030,http://209.35.77.243:12015,http://51.81.109.67:3030,http://80.181.85.114:3030,http://148.113.20.206:3030 && \
+"ssvlabs/ssv-dkg:latest" ping --ip http://141.94.143.182:3030,http://209.35.77.243:12015,http://51.81.109.67:3030,http://80.181.85.114:3030,http://148.113.20.206:3030 && \
 docker rm ssv_dkg_health
 ```
 
@@ -177,7 +177,7 @@ You can keep track of this counter yourself, or you can use the `ssv-scanner` to
 ```sh
 docker run --name ssv_dkg_initiator \
 -v "<PATH_TO_FOLDER_WITH_CONFIG_FILES>":/data -it \
-"bloxstaking/ssv-dkg:latest" init \
+"ssvlabs/ssv-dkg:latest" init \
 --configPath /data/config/init.yaml && \
 docker rm ssv_dkg_initiator
 ```
@@ -413,7 +413,7 @@ Under the assumption that all the necessary files (`encrypted_private_key.json`,
 ```sh
 docker run --restart unless-stopped --name ssv_dkg -p 3030:3030  \
 -v "<PATH_TO_FOLDER_WITH_CONFIG_FILES>":/data -u `id -u $USER` -it \
-"bloxstaking/ssv-dkg:latest" start-operator --configPath /data/operator.config.yaml
+"ssvlabs/ssv-dkg:latest" start-operator --configPath /data/operator.config.yaml
 ```
 
 Just make sure to substitute `<PATH_TO_FOLDER_WITH_CONFIG_FILES>` with the actual folder containing all the files.

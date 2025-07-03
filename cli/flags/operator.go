@@ -122,12 +122,12 @@ func OperatorIDFlag(c *cobra.Command) {
 
 // ServerTLSCertPath sets path to server TLS certificate
 func SetServerTLSCertPath(c *cobra.Command) {
-	AddPersistentStringFlag(c, serverTLSCertPath, "./ssl/tls.crt", "Path to server TLS certificate", false)
+	AddPersistentStringFlag(c, serverTLSCertPath, "./data/ssl/tls.crt", "Path to server TLS certificate", false)
 }
 
 // ServerTLSKeyPath sets path to server server TLS private key
 func SetServerTLSKeyPath(c *cobra.Command) {
-	AddPersistentStringFlag(c, serverTLSKeyPath, "./ssl/tls.key", "Path to server TLS private key", false)
+	AddPersistentStringFlag(c, serverTLSKeyPath, "./data/ssl/tls.key", "Path to server TLS private key", false)
 }
 
 // SetEthEndpointURL
