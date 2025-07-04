@@ -15,7 +15,7 @@ require (
 	github.com/go-chi/httprate v0.7.4
 	github.com/hashicorp/go-version v1.6.0
 	github.com/herumi/bls-eth-go-binary v1.36.4
-	github.com/imroc/req/v3 v3.37.2
+	github.com/imroc/req/v3 v3.43.4
 	github.com/pkg/errors v0.9.1
 	github.com/sourcegraph/conc v0.3.0
 	github.com/spf13/cobra v1.8.1
@@ -30,9 +30,11 @@ require (
 	go.uber.org/zap v1.27.0
 )
 
+require github.com/cloudflare/circl v1.3.7 // indirect
+
 require (
 	github.com/Microsoft/go-winio v0.6.2 // indirect
-	github.com/andybalholm/brotli v1.0.4 // indirect
+	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/bits-and-blooms/bitset v1.21.0 // indirect
 	github.com/bloxapp/ssv v1.0.0-rc.2
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
@@ -51,7 +53,7 @@ require (
 	github.com/go-ole/go-ole v1.3.0 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
 	github.com/goccy/go-yaml v1.15.23 // indirect
-	github.com/google/pprof v0.0.0-20230602150820-91b7bce49751 // indirect
+	github.com/google/pprof v0.0.0-20240227163752-401108e1b7e7 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
@@ -60,20 +62,20 @@ require (
 	github.com/holiman/uint256 v1.3.2 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/kilic/bls12-381 v0.1.0 // indirect
-	github.com/klauspost/compress v1.16.5 // indirect
+	github.com/klauspost/compress v1.17.7 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.10 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mattn/go-runewidth v0.0.14 // indirect
 	github.com/minio/sha256-simd v1.0.1 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/mmcloughlin/addchain v0.4.0 // indirect
-	github.com/onsi/ginkgo/v2 v2.10.0 // indirect
+	github.com/onsi/ginkgo/v2 v2.16.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.8 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prysmaticlabs/go-bitfield v0.0.0-20240618144021-706c95b2dd15 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
 	github.com/quic-go/quic-go v0.46.0 // indirect
-	github.com/refraction-networking/utls v1.3.2 // indirect
+	github.com/refraction-networking/utls v1.6.3 // indirect
 	github.com/rivo/uniseg v0.4.3 // indirect
 	github.com/shirou/gopsutil v3.21.11+incompatible // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
