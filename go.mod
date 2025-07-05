@@ -8,7 +8,7 @@ require (
 	github.com/aquasecurity/table v1.8.0
 	github.com/attestantio/go-eth2-client v0.24.1
 	github.com/drand/kyber v1.3.1
-	github.com/drand/kyber-bls12381 v0.3.1
+	github.com/drand/kyber-bls12381 v0.3.3
 	github.com/ethereum/go-ethereum v1.15.4
 	github.com/ferranbt/fastssz v0.1.4
 	github.com/go-chi/chi/v5 v5.2.2
